@@ -1,0 +1,4 @@
+yolov5/
+__pycache__/
+*.pyc
+*.log
