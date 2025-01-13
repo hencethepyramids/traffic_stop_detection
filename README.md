@@ -33,19 +33,19 @@ cd ..
 ### 3. Run the Script
 
 Run the traffic light detection script:
-
+```
 python script.py
-
-4. Test on a Video
+```
+### 4. Test on a Video
 
 If you’d like to test on a video file instead of a live camera feed, modify the camera = cv2.VideoCapture(0) line in script.py to:
-
+```
 camera = cv2.VideoCapture("path_to_video.mp4")
-
-Credits
+```
+#### Credits
 	•	This project uses the YOLOv5 object detection model by Ultralytics.
 	•	YOLOv5 is licensed under the GPL-3.0 License.
 
-License
+#### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
