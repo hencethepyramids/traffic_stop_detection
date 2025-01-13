@@ -9,7 +9,7 @@ This project detects traffic lights in real-time using a live camera feed or vid
 
 ## Directory Structure
 
-TRAFFIC_STOP/
+traffic_stop/
 - ├── yolov5/          # Cloned YOLOv5 repository
 - ├── script.py        # Traffic light detection script
 - └── README.md        # Project documentation
@@ -23,9 +23,9 @@ cd traffic_stop_detection
 ```
 
 ### 2. Install Dependencies
-```
-Navigate to the yolov5 directory and install the required Python packages:
 
+Navigate to the yolov5 directory and install the required Python packages:
+```
 cd yolov5
 pip install -r requirements.txt
 cd ..
